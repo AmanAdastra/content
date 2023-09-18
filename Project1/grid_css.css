@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.outer-box {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.inner-box {
+  height: 240px;
+  width: 240px;
+  background-color: #6366f1;
+  border-radius: 10px;
+}
